@@ -8,8 +8,7 @@ import { UseStateContext } from "../../context/CryptoContext";
 
 const usestyles = makeStyles(() => ({
   banner: {
-    backgroundImage:
-      "url('https://www.coindesk.com/resizer/Fs1ilBzEMAe0LccFA6zJR36fRxA=/567x248/filters:quality(80):format(jpg)/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LNZLKXIPOZGKBHW6LWEBN73DA4.png')",
+    backgroundImage: "url('222-min.jpg')",
     backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat",
     backgroundSize: "50% 50%",
