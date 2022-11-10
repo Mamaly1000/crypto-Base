@@ -8,11 +8,12 @@ import { UseStateContext } from "../../context/CryptoContext";
 
 const usestyles = makeStyles(() => ({
   banner: {
-    backgroundImage: "url('222-min.jpg')",
+    backgroundImage:
+      "url('https://raw.githubusercontent.com/Mamaly1000/crypto-Base/master/src/components/Banner/222-min.jpg?token=GHSAT0AAAAAAB2YH7QI2YROGH2VADHT6QSQY3LYEWA')",
     backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat",
-    backgroundSize: "50% 50%",
-    backgroundPosition: "top",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   },
   bannerContent: {
     height: 400,
@@ -20,7 +21,7 @@ const usestyles = makeStyles(() => ({
     flexDirection: "column",
     paddingTop: 25,
     justifyContent: "space-around",
-    background: "rgb(0 0 0/.6)",
+    background: "rgb(0 0 0/.9)",
     backgroundBlendMode: "multipy",
   },
   tagline: {
